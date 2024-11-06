@@ -21,3 +21,11 @@
 1. Sometimes we need to break the input into tokens or output something with specific format, this is the place where the Scanning and Formatting kick in.
 2. By default, scanner uses white space (e.g. blank, tab, line termination) to separate tokens.
 3. Sometimes, we need identify individual tokens, like numerics, scanner supporting identifying all numeric formats, but we need to specify the `local`.
+
+## Console
+
+1. Console class is a alternative way for System.in and System.out, but it's convenient for the password input scenario, because it can suppress the echoing of the password.
+
+## Data Stream
+
+1. Data Stream is used for binary I/O, it provides the method for input and output of primitive data types and String.
